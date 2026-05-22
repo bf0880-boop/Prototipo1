@@ -6,18 +6,15 @@ using TMPro;
 public class UIMANAGER : MonoBehaviour
 {
     public TextMeshProUGUI txtScore;
-    // Start is called before the first frame update
-    void Start()
+    public TextMeshProUGUI txtTimer;
+
+    public void UpdateScore(int score)
     {
-        UpdateScore(0);
+        txtScore.text = "Score: " + score.ToString();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UpdateTimer(float tiempo)
     {
-        
-    }
-    public void UpdateScore(int score){
-        txtScore.text = "Score: " + score.ToString();
+        txtTimer.text = "Time: " + tiempo.ToString("F2");
     }
 }

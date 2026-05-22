@@ -5,20 +5,22 @@ using UnityEngine;
 public class InteractionArea : MonoBehaviour
 {
     public UIMANAGER UIMGR;
-    public int score = 0;
+    public GameManager gameManager;
 
 
-    void Awake(){
-        UIMGR = GameObject.FindObjectOfType<UIMANAGER>();
+    void Awake()
+    {
+        UIMGR = FindObjectOfType<UIMANAGER>();
+        gameManager = FindObjectOfType<GameManager>();
     }
 
-   void OnTriggerEnter(Collider other){
-    if(other.gameObject.CompareTag("Collectible")){
-        Destroy(other.gameObject);
-        score++;
-        UIMGR.UpdateScore(score);
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Collectible"))
+        {
+            Destroy(other.gameObject);
+            gameManager.AddScore(1);
+            Debug.Log(other.gameObject.name);
+        }
     }
-
-    Debug.Log(other.gameObject.name);
-   }
 }
