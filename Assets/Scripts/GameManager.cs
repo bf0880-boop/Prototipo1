@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 
     float tiempo = 60f;
     public int score = 0;
-    public int maxScore = 4;
+    public int maxScore = 5;
 
     bool gameOver = false;
     void Awake()

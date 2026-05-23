@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8958a551b1dc621478e6ccb2380d2331
+guid: 74efa9ac540df124b9d16f1fac5a2045
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -10,6 +10,7 @@ ModelImporter:
     2100004: TeclasNaranja
     2100006: TeclasVioleta
     2100008: TeclasCeleste
+    2100010: EspacioGris
     2300000: //RootNode
     3300000: //RootNode
     4300000: Teclado

@@ -7,10 +7,15 @@ public class UIMANAGER : MonoBehaviour
 {
     public TextMeshProUGUI txtScore;
     public TextMeshProUGUI txtTimer;
+    public GameManager GameMGR;
+    void Awake()
+    {
+        GameMGR = FindObjectOfType<GameManager>();
+    }
 
     public void UpdateScore(int score)
     {
-        txtScore.text = "Score: " + score.ToString();
+        txtScore.text = "Score: " + score.ToString() + "/" + GameMGR.maxScore;
     }
 
     public void UpdateTimer(float tiempo)
