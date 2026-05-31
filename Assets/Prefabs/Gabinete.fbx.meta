@@ -10,7 +10,17 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Gabinete
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Negro claro base
+    second: {fileID: 2100000, guid: f82e6573ec17ec9439c8ff3a9b940438, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Negro oscuro secundario
+    second: {fileID: 2100000, guid: 3b407210a30fa59479fa894576ec368b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

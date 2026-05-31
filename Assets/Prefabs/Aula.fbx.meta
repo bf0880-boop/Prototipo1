@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cba3c1bd86045a848a948d464bc46a93
+guid: e51c40e5a91d1a449b114d4e5cf54758
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -91,7 +91,62 @@ ModelImporter:
     4300024: PeceraVidriosGrandes
     4300026: VentanasPecera
     4300028: VentanaPuertaPrincipal
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ColumnaColor
+    second: {fileID: 2100000, guid: 1fca4f6d959c1ed45a1a957158e1695e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ObjetosSecundariosParedColor
+    second: {fileID: 2100000, guid: 569ec2eab44a0ca4daa1ec119210fd0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedColorBlanco
+    second: {fileID: 2100000, guid: 2c90e59ffc8133f439e24ad2d6cace50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedCorredizaParteArribaColor
+    second: {fileID: 2100000, guid: 3e1373d6623e5154696df8d64b875e45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeceraColorBlanco
+    second: {fileID: 2100000, guid: b42883758538ffa40a4742129870c3ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeceraColorCeleste
+    second: {fileID: 2100000, guid: 340d5111031bb564fa236471cea6ded5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PisoCuadrados
+    second: {fileID: 2100000, guid: c7ca28769a2da9144835186bcfbd455e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PuertaPrincipalCOlor
+    second: {fileID: 2100000, guid: af6926e7e40c4f549b01475281861a05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PuertaTraseraBordesVidrio
+    second: {fileID: 2100000, guid: 878e99263c7e30a4a9fdc312b9952c34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TechoCuadrados
+    second: {fileID: 2100000, guid: 9d4c4a7b57b71c048a66e6e123c48c36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VidriosColor
+    second: {fileID: 2100000, guid: 84604395bb53db246acc51d9d8f52d33, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

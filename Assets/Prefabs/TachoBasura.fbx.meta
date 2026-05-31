@@ -9,7 +9,12 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: TachoBasura
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Negro
+    second: {fileID: 2100000, guid: 8c22bd82f35f9bb4cbc23f0ed39b8d1b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -14,7 +14,37 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Teclado
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EspacioGris
+    second: {fileID: 2100000, guid: e00de894301d88f4d8e8b8fabab608f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NegroTeclado
+    second: {fileID: 2100000, guid: 85f5d8cf404c7ea4b8c4f75ed29b5f4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TeclasCeleste
+    second: {fileID: 2100000, guid: dd017f969d017f5438de6f53dbac664b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TeclasNaranja
+    second: {fileID: 2100000, guid: e3d93c58ca2a0424facc41532008512b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TeclasRojo
+    second: {fileID: 2100000, guid: cb31a89449fe04741af3c43acfcbc1df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TeclasVioleta
+    second: {fileID: 2100000, guid: ae92cce380f0b354ca49900f9d543cd1, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

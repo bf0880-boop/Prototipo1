@@ -11,7 +11,22 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mouse
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base gris mouse
+    second: {fileID: 2100000, guid: 146ced8bc8c7fdf4cba252795b011714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Negro mouse secundario
+    second: {fileID: 2100000, guid: 8e2891c273e31f048b7126e88e912985, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rueda celeste
+    second: {fileID: 2100000, guid: ea9b3d99db67afe478a239b6ff983d59, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

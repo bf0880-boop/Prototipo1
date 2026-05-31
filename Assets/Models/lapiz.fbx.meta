@@ -16,7 +16,32 @@ ModelImporter:
     4300000: lapiz
     4300002: Cylinder
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Amarillo
+    second: {fileID: 2100000, guid: 74a099afba961ee4284d2f79c388e71c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grafito
+    second: {fileID: 2100000, guid: c8503b6c5b496e841936f6252eac3af0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madera_Lapiz
+    second: {fileID: 2100000, guid: 8626cc431288fd44e9b8c82035907809, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Marr\xF3n"
+    second: {fileID: 2100000, guid: 90bebba7f7a77a242abb04c34bf15e0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rojo
+    second: {fileID: 2100000, guid: e14e652528f0a7943994d2b169f99edf, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
