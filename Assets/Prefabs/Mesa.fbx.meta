@@ -1,27 +1,50 @@
 fileFormatVersion: 2
-guid: 4deb9216be27ee3439972dd62942a2b3
+guid: 0e74809c9541a8a46b82dfdae1f58773
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: MesaMadera
-    2100002: MesaPatasNegro
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Mesa
-    2186277476908879412: ImportLogs
+    100000: Enchufes
+    100002: //RootNode
+    100004: MesaCuerpo
+    100006: MesaPatas
+    400000: Enchufes
+    400002: //RootNode
+    400004: MesaCuerpo
+    400006: MesaPatas
+    2100000: MesaCuerpoTexturaMadera
+    2100002: MesaCuerpoColorPrincipal
+    2100004: MesaPatasNegro.001
+    2100006: Enchufe
+    2300000: Enchufes
+    2300002: MesaCuerpo
+    2300004: MesaPatas
+    3300000: Enchufes
+    3300002: MesaCuerpo
+    3300004: MesaPatas
+    4300000: MesaCuerpo
+    4300002: MesaPatas
+    4300004: Enchufes
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MesaMadera
-    second: {fileID: 2100000, guid: cbcb88403e8f05449a06b92a7c2f470a, type: 2}
+      name: Enchufe
+    second: {fileID: 2100000, guid: a95e6c4ba08c7ac4fb18a31cc66a50bf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MesaPatasNegro
-    second: {fileID: 2100000, guid: a3b629e46c597e747a2d091827009477, type: 2}
+      name: MesaCuerpoColorPrincipal
+    second: {fileID: 2100000, guid: 57f9f5b71515e0a4399befe70d265a2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MesaCuerpoTexturaMadera
+    second: {fileID: 2100000, guid: bb2d69cca17bb8245b7464f2c9d8b237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MesaPatasNegro.001
+    second: {fileID: 2100000, guid: 5ccdbf62fb37ce049b72f5b42e102cd2, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -61,7 +84,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

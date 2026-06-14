@@ -1,16 +1,49 @@
 fileFormatVersion: 2
-guid: 2381cc2fd93c9c3478094626c5f5bc98
+guid: db0068a3bc671514c93f21b3be1f8f12
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: SillaAsiento
+    100004: SillaPatas
+    100006: SillaRespaldo
+    100008: SillaTubosRespaldo
     400000: //RootNode
-    2100000: Celeste
-    2100002: Madera
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Silla
-  externalObjects: {}
+    400002: SillaAsiento
+    400004: SillaPatas
+    400006: SillaRespaldo
+    400008: SillaTubosRespaldo
+    2100000: SillaColorPrincipal
+    2100002: SillaTexturaMadera
+    2100004: SillaTubosColor.001
+    2300000: SillaAsiento
+    2300002: SillaPatas
+    2300004: SillaRespaldo
+    2300006: SillaTubosRespaldo
+    3300000: SillaAsiento
+    3300002: SillaPatas
+    3300004: SillaRespaldo
+    3300006: SillaTubosRespaldo
+    4300000: SillaAsiento
+    4300002: SillaRespaldo
+    4300004: SillaTubosRespaldo
+    4300006: SillaPatas
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SillaColorPrincipal
+    second: {fileID: 2100000, guid: 1f0afe30cc1d1d04d804536bc27138b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SillaTexturaMadera
+    second: {fileID: 2100000, guid: b774a99a5fe12b3419156b87219a726e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SillaTubosColor.001
+    second: {fileID: 2100000, guid: c23a86bfbbd8877488c70bf44cbb2812, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -50,7 +83,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
