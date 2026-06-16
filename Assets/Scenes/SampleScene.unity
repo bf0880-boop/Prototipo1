@@ -58,7 +58,7 @@ LightmapSettings:
     m_Resolution: 2
     m_BakeResolution: 10
     m_AtlasSize: 512
-    m_AO: 0
+    m_AO: 1
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
@@ -284,7 +284,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &26031671
 Transform:
@@ -317,7 +317,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &31412799
 Transform:
@@ -348,6 +348,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_Name
       value: Gabinete (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
@@ -553,9 +557,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 637035199}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -665,6 +685,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_Name
       value: Teclado (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
@@ -789,6 +813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gabinete (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.7
@@ -883,6 +911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gabinete
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.75
@@ -951,6 +983,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_Name
       value: Monitor (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1065,7 +1101,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &113303947
 Transform:
@@ -1096,6 +1132,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1218,9 +1258,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 880250754}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1403,7 +1459,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &169442715
 Transform:
@@ -1577,6 +1633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.87
@@ -1649,7 +1709,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &189452144
 Transform:
@@ -1680,6 +1740,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_Name
       value: Teclado (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1769,6 +1833,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9829187
@@ -1841,7 +1909,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &197178262
 Transform:
@@ -2207,6 +2275,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.520742
@@ -2285,6 +2357,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2591,6 +2667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9829187
@@ -2665,6 +2745,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2759,6 +2843,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_Name
       value: Teclado (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2924,7 +3012,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &320579845
 Transform:
@@ -2977,6 +3065,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8ee20c81b37e95d4cba5f3ed80fd632c, type: 3}
       propertyPath: m_Name
       value: TachoBasura (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ee20c81b37e95d4cba5f3ed80fd632c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8ee20c81b37e95d4cba5f3ed80fd632c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3047,6 +3139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9829187
@@ -3115,6 +3211,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_Name
       value: Monitor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3264,6 +3364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mouse (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.20005144
@@ -3357,6 +3461,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_Name
       value: Gabinete (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3544,6 +3652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gabinete (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.52
@@ -3679,7 +3791,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &359328168
 Transform:
@@ -3732,7 +3844,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &363015013
 Transform:
@@ -3843,7 +3955,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &386556122
 Transform:
@@ -3981,6 +4093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitor
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5
@@ -4063,7 +4179,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &404886200
 Transform:
@@ -4094,6 +4210,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4828,7 +4948,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &454066158
 Transform:
   m_ObjectHideFlags: 0
@@ -4837,7 +4957,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454066157}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 79.3679, y: 147.71439, z: 13.680938}
+  m_LocalPosition: {x: 43, y: 163, z: 13.680938}
   m_LocalScale: {x: 1.489758, y: 1.489758, z: 1.489758}
   m_Children:
   - {fileID: 264609300}
@@ -4961,12 +5081,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.4754283, y: 3.722005, z: 5.0602226}
   m_Center: {x: -0.000015258789, y: 0.62328446, z: 0}
---- !u!4 &461467665 stripped
+--- !u!4 &461467665
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 5642803131390032105, guid: 4d8513e0d12d62147b0fdccb31c0b7c7,
     type: 3}
   m_PrefabInstance: {fileID: 5642803131197131000}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576536744}
+  m_LocalRotation: {x: -0.5048335, y: 0.49511936, z: -0.49511936, w: 0.50483346}
+  m_LocalPosition: {x: -0.74, y: 2.26, z: 2.226403}
+  m_LocalScale: {x: 0.51479065, y: 0.51479113, z: 0.46153003}
+  m_Children: []
+  m_Father: {fileID: 359328168}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -178.887, y: -90, z: 89.99999}
 --- !u!1 &469124580 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045,
@@ -5141,7 +5270,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &505734804
 Transform:
@@ -5264,6 +5393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9829187
@@ -5336,7 +5469,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &543242582
 Transform:
@@ -5349,7 +5482,7 @@ Transform:
   m_LocalPosition: {x: 4.06, y: -4.9448967, z: -0.079934575}
   m_LocalScale: {x: 1, y: 1, z: 0.89653975}
   m_Children:
-  - {fileID: 782633607}
+  - {fileID: 1978892987}
   - {fileID: 1229637528}
   - {fileID: 1036634281}
   - {fileID: 276481713}
@@ -5367,6 +5500,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5458,9 +5595,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 637035199}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5726,6 +5879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gabinete (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.29
@@ -5809,6 +5966,92 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4010999, y: 3.8637023, z: 2.8466809}
   m_Center: {x: 1.10304404e-11, y: 0, z: -0.047375392}
+--- !u!1 &576536744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5642803131389666505, guid: 4d8513e0d12d62147b0fdccb31c0b7c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 5642803131197131000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 461467665}
+  - component: {fileID: 576536747}
+  - component: {fileID: 576536746}
+  - component: {fileID: 576536745}
+  m_Layer: 0
+  m_Name: Teclado
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!65 &576536745
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5642803131652700127, guid: 4d8513e0d12d62147b0fdccb31c0b7c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 5642803131197131000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576536744}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.2455354, y: 0.39714968, z: 8.271806}
+  m_Center: {x: 0.020418644, y: 0.062401205, z: -0.029327158}
+--- !u!23 &576536746
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5642803131387738633, guid: 4d8513e0d12d62147b0fdccb31c0b7c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 5642803131197131000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576536744}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 85f5d8cf404c7ea4b8c4f75ed29b5f4c, type: 2}
+  - {fileID: 2100000, guid: cb31a89449fe04741af3c43acfcbc1df, type: 2}
+  - {fileID: 2100000, guid: e3d93c58ca2a0424facc41532008512b, type: 2}
+  - {fileID: 2100000, guid: ae92cce380f0b354ca49900f9d543cd1, type: 2}
+  - {fileID: 2100000, guid: dd017f969d017f5438de6f53dbac664b, type: 2}
+  - {fileID: 2100000, guid: e00de894301d88f4d8e8b8fabab608f0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &576536747
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5642803131386607817, guid: 4d8513e0d12d62147b0fdccb31c0b7c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 5642803131197131000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576536744}
+  m_Mesh: {fileID: 4300000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
 --- !u!1001 &580590998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5944,6 +6187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9829187
@@ -6016,7 +6263,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &594258148
 Transform:
@@ -6166,9 +6413,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1673643979}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6260,6 +6523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9829187
@@ -6338,7 +6605,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &637035199
 Transform:
@@ -6367,6 +6634,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_Name
       value: Monitor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6449,9 +6720,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1673643979}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6539,9 +6826,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 637035199}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6629,9 +6932,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1673643979}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6729,6 +7048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gabinete (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.5
@@ -6819,9 +7142,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 880250754}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6991,7 +7330,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &676351805
 Transform:
@@ -7075,6 +7414,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_Name
       value: Gabinete
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7355,6 +7698,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_Name
       value: Monitor (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7738,7 +8085,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &722108926
 BoxCollider:
@@ -7822,6 +8169,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_Name
       value: Monitor
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7996,9 +8347,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 785449950}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8090,6 +8457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitor (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.88
@@ -8164,31 +8535,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1978103800}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &782633606 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045,
-    type: 3}
-  m_PrefabInstance: {fileID: 1979029563}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &782633607 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045,
-    type: 3}
-  m_PrefabInstance: {fileID: 1979029563}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &782633608
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782633606}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.2455354, y: 0.39714968, z: 8.271806}
-  m_Center: {x: 0.020418644, y: 0.062401205, z: -0.029327158}
 --- !u!1 &785449949
 GameObject:
   m_ObjectHideFlags: 0
@@ -8203,7 +8549,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &785449950
 Transform:
@@ -8232,6 +8578,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8539,6 +8889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitor (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.8
@@ -8614,9 +8968,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 26031671}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8892,6 +9262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gabinete
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.6
@@ -8992,7 +9366,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &843992494
 Transform:
@@ -9202,7 +9576,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &855884331
 Transform:
@@ -9231,6 +9605,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_Name
       value: Monitor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9339,7 +9717,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &880250754
 Transform:
@@ -9372,7 +9750,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &882319277
 Transform:
@@ -9413,7 +9791,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &893379554
 Transform:
@@ -9440,9 +9818,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 785449950}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9572,7 +9966,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &894175913
 Transform:
@@ -9600,9 +9994,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 785449950}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9878,6 +10288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.4
@@ -9957,6 +10371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TachoBasura (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ee20c81b37e95d4cba5f3ed80fd632c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8ee20c81b37e95d4cba5f3ed80fd632c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -76.43
@@ -10029,6 +10447,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10124,6 +10546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitor (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.6524386
@@ -10202,6 +10628,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_Name
       value: Gabinete (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10296,6 +10726,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_Name
       value: Monitor
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10462,6 +10896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mouse (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.2
@@ -10591,6 +11029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.3
@@ -10676,7 +11118,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &948791973
 Transform:
@@ -10764,7 +11206,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &948920411
 Transform:
@@ -10794,6 +11236,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_Name
       value: Teclado
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10869,6 +11315,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_Name
       value: Gabinete (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10967,7 +11417,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &965579756
 Transform:
@@ -11020,9 +11470,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 880250754}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11114,6 +11580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9829187
@@ -11182,6 +11652,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_Name
       value: Teclado
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11263,6 +11737,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11358,6 +11836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TachoBasura (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ee20c81b37e95d4cba5f3ed80fd632c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8ee20c81b37e95d4cba5f3ed80fd632c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -113.553764
@@ -11426,6 +11908,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_Name
       value: Gabinete (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11517,9 +12003,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 26031671}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11639,7 +12141,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1036457015
 Transform:
@@ -11944,6 +12446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitor
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5
@@ -12190,6 +12696,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_Name
       value: Teclado (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12463,6 +12973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9829187
@@ -12537,6 +13051,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_Name
       value: Gabinete (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12710,6 +13228,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12929,6 +13451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mouse (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.2
@@ -13054,6 +13580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gabinete (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.2
@@ -13147,6 +13677,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_Name
       value: Teclado (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13314,6 +13848,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gabinete
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.4
@@ -13408,6 +13946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9829187
@@ -13476,6 +14018,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_Name
       value: Gabinete
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13570,6 +14116,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_Name
       value: Gabinete (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13814,6 +14364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gabinete (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.7
@@ -13932,6 +14486,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14500,7 +15058,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1236860178
 BoxCollider:
@@ -14790,6 +15348,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitor (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.1
@@ -14957,6 +15519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitor
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.2
@@ -15035,6 +15601,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 125bea33c020d3d40bd6a2cc784e201d, type: 3}
       propertyPath: m_Name
       value: CarroCompus (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 125bea33c020d3d40bd6a2cc784e201d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 125bea33c020d3d40bd6a2cc784e201d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15301,7 +15871,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1335186315
 Transform:
@@ -15311,7 +15881,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335186314}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.09, y: -4.9448967, z: -0.079934575}
+  m_LocalPosition: {x: 2.49, y: -4.9448967, z: -0.079934575}
   m_LocalScale: {x: 1, y: 1, z: 0.89653957}
   m_Children:
   - {fileID: 1585251077}
@@ -15428,7 +15998,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1367351298
 Transform:
@@ -15458,6 +16028,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15553,6 +16127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitor (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.1
@@ -15631,6 +16209,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_Name
       value: Monitor (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15835,6 +16417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitor (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.9
@@ -15920,7 +16506,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1390218245
 Transform:
@@ -16008,7 +16594,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1405240362
 Transform:
@@ -16266,7 +16852,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1437998231
 Transform:
@@ -16276,7 +16862,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437998230}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3869171, y: -4.9448967, z: -0.079934575}
+  m_LocalPosition: {x: 0.59, y: -4.9448967, z: -0.079934575}
   m_LocalScale: {x: 1, y: 1, z: 0.89653945}
   m_Children:
   - {fileID: 976243349}
@@ -16294,9 +16880,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 26031671}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16391,7 +16993,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1445296449
 Transform:
@@ -16420,6 +17022,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16587,7 +17193,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1462929121
 Transform:
@@ -16879,6 +17485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9829187
@@ -16947,6 +17557,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_Name
       value: Gabinete (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17042,6 +17656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitor (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.1
@@ -17120,6 +17738,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_Name
       value: Gabinete (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17218,7 +17840,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1512226115
 Transform:
@@ -17228,7 +17850,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512226114}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.34, y: -4.9448967, z: -0.079934575}
+  m_LocalPosition: {x: 3.62, y: -4.9448967, z: -0.079934575}
   m_LocalScale: {x: 1, y: 1, z: 0.89653975}
   m_Children:
   - {fileID: 855166702}
@@ -17249,6 +17871,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_Name
       value: Teclado (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17343,6 +17969,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17463,6 +18093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gabinete
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1
@@ -17560,7 +18194,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1545438405
 Transform:
@@ -17596,7 +18230,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1550383226
 Transform:
@@ -17812,6 +18446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mouse (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42
@@ -17988,9 +18626,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 320579845}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa-Jero
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18081,6 +18735,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_Name
       value: Gabinete (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18200,6 +18858,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18516,7 +19178,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1626134542
 Transform:
@@ -18671,6 +19333,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_Name
       value: Monitor
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18894,6 +19560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9829187
@@ -18962,6 +19632,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_Name
       value: Teclado
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19133,7 +19807,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1673643979
 Transform:
@@ -19169,7 +19843,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1673676926
 BoxCollider:
@@ -19291,6 +19965,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19455,6 +20133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mouse (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.2
@@ -19549,6 +20231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9829187
@@ -19621,7 +20307,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1717064468
 Transform:
@@ -19714,6 +20400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TachoBasura (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ee20c81b37e95d4cba5f3ed80fd632c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8ee20c81b37e95d4cba5f3ed80fd632c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -76.037575
@@ -19786,6 +20476,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19950,6 +20644,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9829187
@@ -20018,6 +20716,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20113,6 +20815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gabinete (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.4
@@ -20206,6 +20912,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20338,6 +21048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.5709515
@@ -20428,9 +21142,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 320579845}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_Name
       value: Mesa-Pecera
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0e74809c9541a8a46b82dfdae1f58773, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20528,6 +21258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CarroCompus (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 125bea33c020d3d40bd6a2cc784e201d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 125bea33c020d3d40bd6a2cc784e201d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.9199982
@@ -20600,7 +21334,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1830725238
 Transform:
@@ -20656,6 +21390,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_Name
       value: Teclado (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20731,6 +21469,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_Name
       value: Gabinete (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20950,6 +21692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitor (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.4
@@ -21032,7 +21778,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1842734780
 Transform:
@@ -21063,6 +21809,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_Name
       value: Gabinete (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21201,6 +21951,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21362,6 +22116,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_Name
       value: Monitor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21561,7 +22319,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1918782805
 Transform:
@@ -21645,6 +22403,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_Name
       value: Monitor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21854,6 +22616,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_Name
       value: Mouse (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22142,6 +22908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gabinete (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.5
@@ -22349,75 +23119,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48dcfb4ef5cd13345b57378ef0837cc6, type: 3}
---- !u!1001 &1979029563
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 543242582}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_Name
-      value: Teclado
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.9829187
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.963694
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.4581593
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.17439064
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.17439064
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.17439064
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+--- !u!4 &1978892987 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 41935250838051823, guid: d69f3fec56f8f2d4186fc82d2b81511e,
+    type: 3}
+  m_PrefabInstance: {fileID: 41935249000061268}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1979249249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22815,6 +23522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mouse
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.8
@@ -23001,6 +23712,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gabinete
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99c534440f7112a48a6c811ba8455203, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.173
@@ -23120,6 +23835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mouse (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4299b1aaf7e2745b2c752f2cb181f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.7
@@ -23214,6 +23933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 74efa9ac540df124b9d16f1fac5a2045, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9829187
@@ -23282,6 +24005,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_Name
       value: Monitor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23365,7 +24092,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2041828778
 Transform:
@@ -23396,6 +24123,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 125bea33c020d3d40bd6a2cc784e201d, type: 3}
       propertyPath: m_Name
       value: CarroCompus
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 125bea33c020d3d40bd6a2cc784e201d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 125bea33c020d3d40bd6a2cc784e201d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23465,6 +24196,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_Name
       value: Monitor
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8016b6d2a31aaf842aa8a30da29a69be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23751,7 +24486,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091128019}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 79.3679, y: 147.71439, z: 13.680938}
+  m_LocalPosition: {x: 52, y: 163, z: 13.680938}
   m_LocalScale: {x: 1.489758, y: 1.489758, z: 1.489758}
   m_Children:
   - {fileID: 565012585}
@@ -23908,7 +24643,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2109614183
 Transform:
@@ -23940,6 +24675,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8ee20c81b37e95d4cba5f3ed80fd632c, type: 3}
       propertyPath: m_Name
       value: TachoBasura (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ee20c81b37e95d4cba5f3ed80fd632c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8ee20c81b37e95d4cba5f3ed80fd632c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24123,6 +24862,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &41935249000061268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 543242582}
+    m_Modifications:
+    - target: {fileID: 41935250837948367, guid: d69f3fec56f8f2d4186fc82d2b81511e,
+        type: 3}
+      propertyPath: m_Name
+      value: Teclado
+      objectReference: {fileID: 0}
+    - target: {fileID: 41935250838051823, guid: d69f3fec56f8f2d4186fc82d2b81511e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.9829187
+      objectReference: {fileID: 0}
+    - target: {fileID: 41935250838051823, guid: d69f3fec56f8f2d4186fc82d2b81511e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.963694
+      objectReference: {fileID: 0}
+    - target: {fileID: 41935250838051823, guid: d69f3fec56f8f2d4186fc82d2b81511e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.4581593
+      objectReference: {fileID: 0}
+    - target: {fileID: 41935250838051823, guid: d69f3fec56f8f2d4186fc82d2b81511e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41935250838051823, guid: d69f3fec56f8f2d4186fc82d2b81511e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41935250838051823, guid: d69f3fec56f8f2d4186fc82d2b81511e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41935250838051823, guid: d69f3fec56f8f2d4186fc82d2b81511e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 41935250838051823, guid: d69f3fec56f8f2d4186fc82d2b81511e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41935250838051823, guid: d69f3fec56f8f2d4186fc82d2b81511e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41935250838051823, guid: d69f3fec56f8f2d4186fc82d2b81511e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41935250838051823, guid: d69f3fec56f8f2d4186fc82d2b81511e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d69f3fec56f8f2d4186fc82d2b81511e, type: 3}
 --- !u!1001 &81823818795348421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24185,10 +24993,90 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508288, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508290, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508292, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508294, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508296, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508298, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508300, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508302, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508304, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 81823818724508306, guid: 05cb028d2c4f60d49877a406685cec2b,
         type: 3}
       propertyPath: m_Name
       value: Aula
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508306, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508308, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508310, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508312, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508314, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508316, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 81823818724508318, guid: 05cb028d2c4f60d49877a406685cec2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05cb028d2c4f60d49877a406685cec2b, type: 3}
@@ -24258,6 +25146,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Monitor
+      objectReference: {fileID: 0}
+    - target: {fileID: 585141228072730042, guid: ddd442e97ab7cad479a14d4f724f72dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddd442e97ab7cad479a14d4f724f72dd, type: 3}
@@ -24451,6 +25344,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 682870664237863145, guid: bff9ef757665ff648bfdeb498c0c1177,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bff9ef757665ff648bfdeb498c0c1177, type: 3}
@@ -24744,6 +25642,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gabinete
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275807226626682983, guid: 0d6a435f355f7d14e89dda162935f4b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2275807226626976839, guid: 0d6a435f355f7d14e89dda162935f4b1,
         type: 3}
@@ -25206,6 +26109,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teclado
       objectReference: {fileID: 0}
+    - target: {fileID: 5642803131389666505, guid: 4d8513e0d12d62147b0fdccb31c0b7c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5642803131390032105, guid: 4d8513e0d12d62147b0fdccb31c0b7c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25558,6 +26466,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TachoBasura
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754292093182454078, guid: 1c315b45a84f3024f8846c573ee94ede,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7754292093182620958, guid: 1c315b45a84f3024f8846c573ee94ede,
         type: 3}
