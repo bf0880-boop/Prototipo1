@@ -4,38 +4,50 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Columna
-    100004: ParedCorrediza
-    100006: Paredes
-    100008: PeceraParedChica
-    100010: PeceraParedGrande
-    100012: PeceraVidriosChicos
-    100014: PeceraVidriosGrandes
-    100016: Piso
-    100018: PuertaPrincipal
-    100020: PuertaTrasera
-    100022: Techo
-    100024: VentanaAdelante
-    100026: VentanaAtras
-    100028: VentanaPuertaPrincipal
-    100030: VentanasPecera
+    100002: ChicaTIC
+    100004: Columna
+    100006: ManijaVentana
+    100008: ManijaVentana.001
+    100010: ManijaVentana.002
+    100012: ManijaVentana.003
+    100014: ParedCorrediza
+    100016: Paredes
+    100018: ParedLadrillo
+    100020: PeceraParedChica
+    100022: PeceraParedGrande
+    100024: PeceraVidriosChicos
+    100026: PeceraVidriosGrandes
+    100028: Piso
+    100030: PuertaPrincipal
+    100032: PuertaTrasera
+    100034: Techo
+    100036: VentanaAdelante
+    100038: VentanaAtras
+    100040: VentanaPuertaPrincipal
+    100042: VentanasPecera
     400000: //RootNode
-    400002: Columna
-    400004: ParedCorrediza
-    400006: Paredes
-    400008: PeceraParedChica
-    400010: PeceraParedGrande
-    400012: PeceraVidriosChicos
-    400014: PeceraVidriosGrandes
-    400016: Piso
-    400018: PuertaPrincipal
-    400020: PuertaTrasera
-    400022: Techo
-    400024: VentanaAdelante
-    400026: VentanaAtras
-    400028: VentanaPuertaPrincipal
-    400030: VentanasPecera
-    2100000: ParedColorBlanco
+    400002: ChicaTIC
+    400004: Columna
+    400006: ManijaVentana
+    400008: ManijaVentana.001
+    400010: ManijaVentana.002
+    400012: ManijaVentana.003
+    400014: ParedCorrediza
+    400016: Paredes
+    400018: ParedLadrillo
+    400020: PeceraParedChica
+    400022: PeceraParedGrande
+    400024: PeceraVidriosChicos
+    400026: PeceraVidriosGrandes
+    400028: Piso
+    400030: PuertaPrincipal
+    400032: PuertaTrasera
+    400034: Techo
+    400036: VentanaAdelante
+    400038: VentanaAtras
+    400040: VentanaPuertaPrincipal
+    400042: VentanasPecera
+    2100000: ParedesBlancasTexturas
     2100002: PeceraColorBlanco
     2100004: PeceraColorCeleste
     2100006: ColumnaColor
@@ -46,36 +58,51 @@ ModelImporter:
     2100016: ObjetosSecundariosParedColor
     2100018: PuertaTraseraBordesVidrio
     2100020: ParedCorredizaParteArribaColor
-    2300000: Columna
-    2300002: ParedCorrediza
-    2300004: Paredes
-    2300006: PeceraParedChica
-    2300008: PeceraParedGrande
-    2300010: PeceraVidriosChicos
-    2300012: PeceraVidriosGrandes
-    2300014: Piso
-    2300016: PuertaPrincipal
-    2300018: PuertaTrasera
-    2300020: Techo
-    2300022: VentanaAdelante
-    2300024: VentanaAtras
-    2300026: VentanaPuertaPrincipal
-    2300028: VentanasPecera
-    3300000: Columna
-    3300002: ParedCorrediza
-    3300004: Paredes
-    3300006: PeceraParedChica
-    3300008: PeceraParedGrande
-    3300010: PeceraVidriosChicos
-    3300012: PeceraVidriosGrandes
-    3300014: Piso
-    3300016: PuertaPrincipal
-    3300018: PuertaTrasera
-    3300020: Techo
-    3300022: VentanaAdelante
-    3300024: VentanaAtras
-    3300026: VentanaPuertaPrincipal
-    3300028: VentanasPecera
+    2100022: ManijaVentanaMetal
+    2100024: ChicaTICPintura
+    2100026: ParedLadrilloTextura
+    2300000: ChicaTIC
+    2300002: Columna
+    2300004: ManijaVentana
+    2300006: ManijaVentana.001
+    2300008: ManijaVentana.002
+    2300010: ManijaVentana.003
+    2300012: ParedCorrediza
+    2300014: Paredes
+    2300016: ParedLadrillo
+    2300018: PeceraParedChica
+    2300020: PeceraParedGrande
+    2300022: PeceraVidriosChicos
+    2300024: PeceraVidriosGrandes
+    2300026: Piso
+    2300028: PuertaPrincipal
+    2300030: PuertaTrasera
+    2300032: Techo
+    2300034: VentanaAdelante
+    2300036: VentanaAtras
+    2300038: VentanaPuertaPrincipal
+    2300040: VentanasPecera
+    3300000: ChicaTIC
+    3300002: Columna
+    3300004: ManijaVentana
+    3300006: ManijaVentana.001
+    3300008: ManijaVentana.002
+    3300010: ManijaVentana.003
+    3300012: ParedCorrediza
+    3300014: Paredes
+    3300016: ParedLadrillo
+    3300018: PeceraParedChica
+    3300020: PeceraParedGrande
+    3300022: PeceraVidriosChicos
+    3300024: PeceraVidriosGrandes
+    3300026: Piso
+    3300028: PuertaPrincipal
+    3300030: PuertaTrasera
+    3300032: Techo
+    3300034: VentanaAdelante
+    3300036: VentanaAtras
+    3300038: VentanaPuertaPrincipal
+    3300040: VentanasPecera
     4300000: Paredes
     4300002: PeceraParedChica
     4300004: Columna
@@ -91,7 +118,18 @@ ModelImporter:
     4300024: PeceraVidriosGrandes
     4300026: VentanasPecera
     4300028: VentanaPuertaPrincipal
+    4300030: ManijaVentana
+    4300032: ManijaVentana.001
+    4300034: ManijaVentana.002
+    4300036: ManijaVentana.003
+    4300038: ChicaTIC
+    4300040: ParedLadrillo
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChicaTICPintura
+    second: {fileID: 2100000, guid: 24f4922b2476b8148b87a709998ed0a8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -100,18 +138,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: ManijaVentanaMetal
+    second: {fileID: 2100000, guid: e58b5d40320239f408429eff044ec0f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: ObjetosSecundariosParedColor
     second: {fileID: 2100000, guid: 569ec2eab44a0ca4daa1ec119210fd0b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: ParedColorBlanco
-    second: {fileID: 2100000, guid: 2c90e59ffc8133f439e24ad2d6cace50, type: 2}
+      name: ParedCorredizaParteArribaColor
+    second: {fileID: 2100000, guid: 3e1373d6623e5154696df8d64b875e45, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: ParedCorredizaParteArribaColor
-    second: {fileID: 2100000, guid: 3e1373d6623e5154696df8d64b875e45, type: 2}
+      name: ParedLadrilloTextura
+    second: {fileID: 2100000, guid: ad1473485c1097647986ed4d51c9c772, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedesBlancasTexturas
+    second: {fileID: 2100000, guid: d28b2922e3d43c94aa158c933a2e2ad7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -186,7 +234,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
